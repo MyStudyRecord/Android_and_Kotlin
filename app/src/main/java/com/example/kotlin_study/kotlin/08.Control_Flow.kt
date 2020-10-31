@@ -20,7 +20,7 @@ fun main(array: Array<String>) {
         println("a가 b보다 클때만 실행된다")
     }
     //위의 코드처럼 간단한 경우 코틀린에서는 줄여서 쓸수있다
-    if (a>b) println("a가 b보다 클때만 실행된다")
+    if (a > b) println("a가 b보다 클때만 실행된다")
 
     //방법3
     if (a > b) {
@@ -31,16 +31,16 @@ fun main(array: Array<String>) {
         println("모두 아닌경우")
     }
 
-    //값을 리턴하는 if
+    //값을 리턴하는 if(무조건 값을 리턴해야함)
     //a가 b보다 크면 a값을 max에 넣고 아니면 b값을 max에 넣는다
-    val max = if(a>b){
+    val max = if (a > b) {
         a
-    }else{
+    } else {
         b
     }
     println(max)
     //위의 코드를 줄여서 적는 방법
-    val max2 = if (a>b) a else b
+    val max2 = if (a > b) a else b
     println(max2)
 
 
