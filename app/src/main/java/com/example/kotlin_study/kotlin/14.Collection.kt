@@ -20,7 +20,8 @@ fun main(array: Array<String>) {
     val numberMap = mapOf<String, Int>("one" to 1, "two" to 2)
     println(numberMap.get("one")) //출력값 1
 
-
+    val numberMap0 = mapOf<String, Int>("one" to 12, "two" to 2)
+    println(numberMap0["one"])
 
     //값을 변경할수 있는 collection(Mutable collection)
     val mnumber = mutableListOf<Int>(1,2,3)

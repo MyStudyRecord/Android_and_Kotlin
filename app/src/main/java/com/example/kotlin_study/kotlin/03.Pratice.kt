@@ -15,4 +15,6 @@ fun main(array: Array<String>){
     println("$a \n $b \n $c \n $d \n $e \n $f \n")
     //null 출력
     println(abc)
+
+
 }

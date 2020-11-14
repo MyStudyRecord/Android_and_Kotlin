@@ -24,21 +24,21 @@ fun main(array: Array<String>) {
     }
     //위의 코드를 if문과 비교
     if (value == 1) {
-        println("1")
-    } else if (value == 2) {
-        println("2")
-    } else if (value == 3) {
-        println("3")
-    } else {
-        println("i do not know")
-    }
+println("1")
+} else if (value == 2) {
+    println("2")
+} else if (value == 3) {
+    println("3")
+} else {
+    println("i do not know")
+}
 
-    //값을 리턴하는 when
-    val value2 = when (value) {
-        1 -> 10
-        2 -> 20
-        3 -> 30
-        else -> 100
-    }
-    println(value2)
+//값을 리턴하는 when
+val value2 = when (value) {
+    1 -> 10
+    2 -> 20
+    3 -> 30
+    else -> 100
+}
+println(value2)
 }
