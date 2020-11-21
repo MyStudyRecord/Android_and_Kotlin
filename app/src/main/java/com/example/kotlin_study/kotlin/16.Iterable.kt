@@ -65,4 +65,19 @@ fun main(array: Array<String>){
         //..은 마지막을 포함 <->until은 마지막을 포함하지 않는다
         println(i)
     }
+
+    //반복하는 방법11
+    var b:Int = 0
+    var c:Int = 4
+
+    while (b<c){
+        b++
+        println("b")
+    }
+
+    //반복하는 방법12
+    do {
+        println("hello")
+        d++
+    }while (b>c)
 }
