@@ -5,6 +5,9 @@
     android:orientation="vertical"
     >
 
+    <!--margin : 부모 뷰로 부터 얼마나 떨어질지
+        padding : 가지고 있는 컨텐츠를 안에서 어떻게 움직일지
+    -->
     <TextView
         android:layout_marginTop="100dp"
         android:layout_marginLeft="100dp"
