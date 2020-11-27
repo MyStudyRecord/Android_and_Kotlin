@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--RelativeLayout도 뷰를 겹칠수 있다. 겹칠수 있는건
+    Framelayout, RelativeLayout 두개이고 RelativeLayout은 연산을 많이
+    해서 왠만하면 RelativeLayout가 더 좋다(요즘 폰은 좋아서 체감X)-->
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#2196F3"
+        android:text="hello"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#CDDC39"
+        android:text="hello"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FF5722"
+        android:text="hello"
+        android:textSize="30dp"/>
+</RelativeLayout>
