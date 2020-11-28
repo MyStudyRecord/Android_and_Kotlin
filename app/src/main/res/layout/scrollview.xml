@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--scrollview는 자식뷰를 한개만 가질수 있음-->
+    <!--스크롤 할때 옆에 스크롤바 삭제
+            android:scrollbars="none"
+
+            fillviewport는 항상쓰기
+            이유는 만들때 잘못만들어서 나중에 추가된 속성,
+            특정한 상황에 잘못 작동할수 있음
+    -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:fillViewport="true"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="#03A9F4"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="#FF5722"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="#E91E63"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="#03A9F4"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="#FF5722"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:background="#E91E63"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
