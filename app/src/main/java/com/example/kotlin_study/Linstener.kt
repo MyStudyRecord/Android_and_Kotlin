@@ -37,7 +37,7 @@ class Linstener : AppCompatActivity() {
         val click = object : View.OnClickListener{
             override fun onClick(v: View?) {
                 helloo.setText("안녕하세요")
-
+                image.set
             }
         }
         helloo.setOnClickListener(click)
