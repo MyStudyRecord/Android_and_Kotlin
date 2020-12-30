@@ -30,8 +30,6 @@ class FragmentOne:Fragment(){
         //inflater -> 뷰를 그려주는 역할
         //container -> 부모뷰(달라붙을 곳)
         return inflater.inflate(R.layout.fragment_one,container,false)
-
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -41,7 +39,11 @@ class FragmentOne:Fragment(){
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         Log.d("life_cycle","F onActivityCreated")
+
+        val data = arguments?.getString("hello")
+        Log.d("data1",""+data)
         super.onActivityCreated(savedInstanceState)
+
     }
 
     override fun onStart() {
