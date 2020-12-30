@@ -2,6 +2,7 @@
 package com.example.kotlin_study
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -25,15 +26,19 @@ class Intent1 : AppCompatActivity() {
 //            intent.putExtra("number2",2)
 //            startActivity(intent)
 
-            val intent2 = Intent(this@Intent1,Intent2::class.java)
-            //apply -> 앞에있는것을 적용
-            intent2.apply {
-                this.putExtra("number1",1)
-                this.putExtra("number2",1)
-            }
-            startActivityForResult(intent2,200)
+//            val intent2 = Intent(this@Intent1,Intent2::class.java)
+//            //apply -> 앞에있는것을 적용
+//            intent2.apply {
+//                this.putExtra("number1",1)
+//                this.putExtra("number2",1)
+//            }
+//            startActivityForResult(intent2,200)
 
 
+
+            //암시적 인텐트
+            val intent=Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"))
+            startActivity(intent)
         }
     }
 
