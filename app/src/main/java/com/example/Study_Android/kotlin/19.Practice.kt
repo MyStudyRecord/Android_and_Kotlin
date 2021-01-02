@@ -20,6 +20,9 @@ fun main(array: Array<String>){
     math.plus(4,1)
     math.multiply(6,6)
     println()
+    val math2 =Math2()
+    println(math2.minus(10,2,2,2,5))
+    println()
     val bank = Bank()
     bank.In(1000)
     bank.out(300)
@@ -61,7 +64,35 @@ class Math2(){
         }
         return result
     }
-    fun minus
+    fun minus(vararg numbers:Int):Int{
+        var result:Int = numbers[0]
+        for(i in 0 until numbers.size) {
+            if(i!=0){
+                result = result - numbers[i]
+            }
+        }
+        return result
+    }
+    fun multiply(vararg numbers:Int):Int{
+        var result:Int = 1
+        numbers.forEach {
+            if(it !=0){
+                result *= it
+            }
+        }
+        return result
+    }
+    fun divide(vararg  numbers:Int):Int {
+        var result:Int = numbers[0]
+        numbers.forEachIndexed{index, value->
+            if(index!=0){
+                if(value !=0){
+                    result = result / value
+                }
+            }
+        }
+        return result
+    }
 }
 
 /*2. 은행 계좌 만들기
