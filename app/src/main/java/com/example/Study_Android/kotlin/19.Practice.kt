@@ -169,6 +169,24 @@ class Account(val name:String, val birth:String, var balance:Int){
 }
 
 
+class Account2(val name:String, val birth:String, var balance:Int = 1000){
+    fun checkBalance():Int{
+        return balance
+    }
+    fun withdraw(amount:Int):Boolean{
+        if(balance>=amount){
+            balance = balance - amount
+            return true
+        }else{
+            return false
+        }
+    }
+    fun save(amount: Int){
+        balance +=amount
+    }
+}
+
+
 /*3.TV 클래스
 -on/ off 기능
 -채널을 돌리는 기능
