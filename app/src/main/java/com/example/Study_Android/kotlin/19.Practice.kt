@@ -35,9 +35,9 @@ fun main(array: Array<String>){
     tv.changeChannel(0)
     tv.changeChannel(1)
     println("=")
-    val math3=Math3(3)
-    val math3_1 = math3.plus(5).minus(5)
-    println(math3_1)
+  //  val math3=Math3(3)
+  //  val math3_1 = math3.plus(5).minus(5)
+  //  println(math3_1)
     println()
     val account =Account("홍길동","1990/2/1",1000)
     println(account.checkBalance())
@@ -103,24 +103,24 @@ class Math2(){
     }
 }
 
-class  Math3(val initialValue: Int){
-    fun plus(one :Int):Math3{
-            val result = this.initialValue + number
-            return Math3(result)
-    }
-    fun minus(one :Int):Math3{
-        val result = this.initialValue -number
-        return Math3(result)
-    }
-    fun multiply(one :Int):Math3{
-        val result = this.initialValue * number
-        return Math3(result)
-    }
-    fun divide(one :Int):Math3{
-        val result = this.initialValue / number
-        return Math3(result)
-    }
-}
+//class  Math3(val initialValue: Int){
+//    fun plus(one :Int):Math3{
+//            val result = this.initialValue + number
+//            return Math3(result)
+//    }
+//    fun minus(one :Int):Math3{
+//        val result = this.initialValue -number
+//        return Math3(result)
+//    }
+//    fun multiply(one :Int):Math3{
+//        val result = this.initialValue * number
+//        return Math3(result)
+//    }
+//    fun divide(one :Int):Math3{
+//        val result = this.initialValue / number
+//        return Math3(result)
+//    }
+//}
 
 /*2. 은행 계좌 만들기
 -계좌 생성 기능(이름, 생년 월일)
