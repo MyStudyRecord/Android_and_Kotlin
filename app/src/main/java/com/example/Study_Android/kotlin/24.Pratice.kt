@@ -1,11 +1,11 @@
 package com.example.Study_Android.kotlin
 
 fun main(array:Array<String>){
-    val night=Night(20,4)
-    val monster=Monster(15,3)
+    val night1=Night(20,4)
+    val monster1=Monster(15,3)
 
-    night.attack(monster)
-    monster.attact(night)
+    night1.attack(monster1)
+    monster1.attact(night1)
 
 }
 
