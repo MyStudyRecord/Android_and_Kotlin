@@ -40,7 +40,7 @@ class SoccerPlay:Person_{
     }
 }
 
-open class Person(){
+open class Person1(){
     fun eat(){
 
     }
@@ -49,9 +49,9 @@ open class Person(){
     }
 }
 
-class Student() :Person(){
+class Student() :Person1(){
 
 }
-class Teacher():Person(){
+class Teacher():Person1(){
 
 }
