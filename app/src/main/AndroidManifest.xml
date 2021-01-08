@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Study_Android">
-        <activity android:name="com.example.Study_Android.FragmentActivity">
+        <activity android:name=".NullSafety">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.Study_Android.OpenInternet">
-
+        <activity android:name=".FragmentActivity">
         </activity>
-        <activity android:name="com.example.Study_Android.Linstener"></activity>
-        <activity android:name="com.example.Study_Android.MainActivity" />
+        <activity android:name=".OpenInternet"></activity>
+        <activity android:name=".Linstener" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
