@@ -36,8 +36,6 @@ class ThreadActivity : AppCompatActivity() {
 
         }).start()
 
-
-
         btn_1.setOnClickListener {
             thread.start()
 
