@@ -11,13 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Study_Android">
-        <activity android:name=".Dog"></activity>
-        <activity android:name=".AddViewActivity">
+        <activity android:name=".Dog">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".AddViewActivity">
         </activity>
         <activity android:name=".LibraryActivity"></activity>
         <activity android:name=".ThreadActivity" />
