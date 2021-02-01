@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Study_Android">
+        <activity android:name=".The_kotlin_book.Calc2"></activity>
         <activity android:name=".The_kotlin_book.Image">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,10 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".The_kotlin_book.Calculation">
-
-        </activity>
-        <activity android:name=".The_kotlin_book.Dog"></activity>
+        <activity android:name=".The_kotlin_book.Calculation"></activity>
+        <activity android:name=".The_kotlin_book.Dog" />
         <activity android:name=".AddViewActivity" />
         <activity android:name=".LibraryActivity" />
         <activity android:name=".ThreadActivity" />
