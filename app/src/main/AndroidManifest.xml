@@ -3,9 +3,6 @@
     package="com.example.Study_Android">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-
-
 
     <application
         android:allowBackup="true"
@@ -14,18 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Study_Android">
-        <activity android:name=".The_kotlin_book.IntentActivity">
+        <activity android:name=".The_kotlin_book.List"></activity>
+        <activity android:name=".The_kotlin_book.MyArray">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".The_kotlin_book.MyInflater">
-
-        </activity>
+        <activity android:name=".The_kotlin_book.IntentActivity"></activity>
+        <activity android:name=".The_kotlin_book.MyInflater" />
         <activity android:name=".The_kotlin_book.Calc2" />
-        <activity android:name=".The_kotlin_book.Image"></activity>
+        <activity android:name=".The_kotlin_book.Image" />
         <activity android:name=".The_kotlin_book.Calculation" />
         <activity android:name=".The_kotlin_book.Dog" />
         <activity android:name=".AddViewActivity" />
